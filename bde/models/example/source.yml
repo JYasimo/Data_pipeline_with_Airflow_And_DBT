@@ -1,0 +1,53 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw data from CSV files
+    database: postgres
+    schema: raw
+
+    tables:
+      - name: census_g01_nsw_lga_2016
+        description: Description of census_g01_nsw_lga_2016
+      - name: census_g02_nsw_lga_2016
+        description: Description of census_g02_nsw_lga_2016
+      - name: listing
+        description: Description of listing
+      - name: nsw_lga_code
+        description: Description of nsw_lga_code
+      - name: nsw_lga_suburb
+        description: Description of nsw_lga_suburb
+      - name: host_snapshot
+        description: Description of host_snapshot
+      - name: room_snapshot
+        description: Description of room_snapshot
+      - name: property_snapshot
+        description: Description of property_snapshot       
+
+  # - name: raw_raw
+  #   description: Raw data from some source
+  #   database: postgres
+  #   schema: raw_raw
+
+  #   tables:
+  #     - name: Raw_Host
+  #       description: Description of Raw_host table
+  #     - name: Raw_property
+  #       description: Description of Raw_property table
+  #     - name: Raw_room
+  #       description: Description of Raw_room table
+
+  # - name: snapshots
+  #   description: Raw data from some source
+  #   database: postgres
+  #   schema: snapshots
+
+  
+  #     - name: host_snapshot
+  #       description: Description of host_snapshot table
+  #     - name: property_snapshot
+  #       description: Description of property_snapshot table
+  #     - name: room_snapshot
+  #       description: Description of room_snapshot table
+
+                
