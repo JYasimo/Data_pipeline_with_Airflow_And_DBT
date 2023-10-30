@@ -1,0 +1,13 @@
+profiles.yml:
+bde:
+  outputs:
+    dev:
+      type: postgres
+      threads: 4
+      host: 35.244.112.19
+      port: 5432
+      user: postgres
+      pass: Yy00981180856
+      dbname: postgres
+      schema: raw
+  target: dev
