@@ -3,4 +3,4 @@ Airbnb is an online-based marketing company that connects people looking for acc
 We will focus on Sydney for this assignment, and the dataset used is from May 2020 to April 2021.
 
 # Role
-The goal of this assignment is to build production-ready data pipelines with Airflow. We worked with two input datasets that needed to be processed and cleaned before loading this insightful information separately into a data warehouse (using ELT pipelines) and a data mart for analytical purposes.
+The goal of this project is to build production-ready data pipelines with Airflow. We worked with two input datasets that needed to be processed and cleaned before loading this insightful information separately into a data warehouse (using ELT pipelines) and a data mart for analytical purposes.
